@@ -7,18 +7,37 @@
     
     <body>
         <h1>Welcome</h1>
-        <button type="button">Show Balance</button>
+        <button onclick="showBal()">Show Balance</button>
         <br><br>
-        <form action="/action_page.php">
+        <form>
             <label for="withdraw">Withdraw Amount:</label>
             <input type="text" id="withdraw" name="withdraw">
             <input type="submit" value="Submit">
         </form>
         <br><br>
-        <form action="/action_page.php">
+        <form onsubmit="aboutSub()">
             <label for="profile">About Yourself:</label>
             <input type="text" id="profile" name="profile">
             <input type="submit" value="Submit">
         </form>
+        
+        <script>
+            function showBal() {
+                alert();
+            }
+        </script>
+        
+        <script>
+            function aboutSub() {
+            alert("Profile Updated!");
+            }
+        </script>
+        
+        <script>
+            function withdrawSub() {
+                alert("Money Withdrawn");
+            }
+        </script>
+
     </body>
 </html>
