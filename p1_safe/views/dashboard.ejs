@@ -1,0 +1,17 @@
+
+
+<div class="container">
+  <h1>Dashboard</h1>
+  <p>Welcome to your dashboard, <%- FirstName %>! You are now logged in. <a href='/logout'>Logout</a></p>
+  <h2>Send Money</h2>
+
+</div>
+
+<form method='post' action= '/sendmoney'>
+  <input type='email' name='email' placeholder='Receiver Email' required />
+  <input type='text' name='acctBalance' placeholder='amount to send' required />
+  <input type='submit' />
+</form>
+<br> 
+<p><a href='/feedback'>View Feedback</a></p>
+

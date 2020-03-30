@@ -1,0 +1,35 @@
+{
+  "name": "login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/djblem/CIS4930-mini-project-1.git"
+  },
+  "author": "blue team",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/djblem/CIS4930-mini-project-1/issues"
+  },
+  "homepage": "https://github.com/djblem/CIS4930-mini-project-1#readme",
+  "dependencies": {
+    "bcrypt": "^4.0.1",
+    "client-sessions": "^0.8.0",
+    "connect-mongo": "^3.2.0",
+    "connect-mongodb-session": "^2.3.1",
+    "cookie-parser": "^1.4.5",
+    "crypto": "^1.0.1",
+    "csurf": "^1.11.0",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "mongo-sanitize": "^1.1.0",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.5",
+    "sanitize-html": "^1.22.1"
+  }
+}
