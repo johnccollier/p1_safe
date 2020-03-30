@@ -1,0 +1,16 @@
+<table>
+    <thead>
+        <tr>
+            <th>Poster</th>
+            <th>Comment</th>
+        </tr>
+    </thead>
+    <tbody>
+        <% comments.forEach(Feedback => { %>
+            <tr>
+                <td><%- Feedback.email %></td>
+                <td><%- Feedback.comment %></td>
+            </tr>
+        <% }) %>
+    </tbody>
+</table>

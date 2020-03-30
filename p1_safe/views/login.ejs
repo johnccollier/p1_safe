@@ -1,0 +1,8 @@
+<h1>Login</h1>
+
+<form method='post' action= '/login'>
+	<input type='hidden' name='_csrf' value="<%= csrfToken %>" required />
+	<input type='email' name='email' placeholder='Email' required />
+	<input type='password' name='password' placeholder='password' required />
+	<input type='submit' />
+</form>
